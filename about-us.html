@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="vendor/bootstrap-5.3.0-dist/css/bootstrap.css">
     <link rel="icon" type="image/x-icon" href="/images/fav-icon.webp">
     <link rel="stylesheet" href="css/style.css">
-    <title>Home | Voo</title>
+    <title>About | Voo</title>
 </head>
 
 <body>
@@ -25,7 +25,7 @@
                     data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
                     <i class="fas fa-bars toggle-icon"></i>
                 </button>
-
+    
                 <!-- sidebar -->
                 <div class="sidebar offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar">
                     <!-- sidebar header -->
@@ -34,12 +34,12 @@
                         <button type="button" class="btn-close shadow-none" data-bs-dismiss="offcanvas"
                             aria-label="Close"></button>
                     </div>
-
+    
                     <!-- sidebar body -->
                     <div class="offcanvas-body d-flex flex-column flex-lg-row p-5 p-lg-0">
                         <ul class="navbar-nav justify-content-lg-end align-items-lg-center flex-grow-1">
                             <li class="nav-item">
-                                <a class="nav-link active-nav d-flex d-lg-block align-items-center" href="index.html"><i
+                                <a class="nav-link d-flex d-lg-block align-items-center" href="index.html"><i
                                         class="fa-solid fa-house me-3 d-lg-none fs-16"></i>Home</a>
                             </li>
                             <li class="nav-item navbar-item dropdown">
@@ -50,8 +50,7 @@
                                     </div>
                                 </a>
                                 <ul class="dropdown-menu">
-                                    <li class="dropdown-item"><a href="ride.html"
-                                            class="d-flex d-lg-block align-items-center"><i
+                                    <li class="dropdown-item"><a href="ride.html" class="d-flex d-lg-block align-items-center"><i
                                                 class="fa-solid fa-tag d-lg-none fs-16 me-3"></i><span>Ride with us
                                             </span></a></li>
                                     <li class="dropdown-item"><a href="rider-offer.html"
@@ -71,7 +70,7 @@
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link d-flex d-lg-block align-items-center" href="about-us.html"><i
+                                <a class="nav-link d-flex active-nav d-lg-block align-items-center" href="about-us.html"><i
                                         class="fa-solid fa-user me-3 d-lg-none fs-16"></i><span>About us</span></a>
                             </li>
                             <li class="nav-item">
@@ -84,7 +83,7 @@
                                         up</span></a>
                             </li>
                         </ul>
-
+    
                         <!-- login / sign-up -->
                         <div class="d-none d-lg-block">
                             <div class="d-flex flex-column flex-lg-row justify-content-center align-items-center gap-3">
@@ -100,58 +99,17 @@
         </nav>
     </header>
 
-    <main class="home top-sec">
-        <!-- landing -->
-        <section class="landing-sec sec-padding">
-            <div class="container">
-                <div class="video-container text-center" id="video-container">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/D8HI7Bg4Dqw?si=oS0m39-8IGoL1n0j"
-                        title="YouTube video player" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-                    <div class="overlay" id="video-overlay">
-                        <div class="play-icon"></div>
-                    </div>
-                </div>
-                <div
-                    class="mt-5 text-center d-flex align-items-center justify-content-center gap-4 links gap-xl-5 flex-wrap">
-                    <a href="#" class="main-btn">Ride with voo</a>
-                    <a href="#" class="main-btn">Get your Deliveries</a>
-                </div>
-            </div>
-        </section>
-
-        <!-- service -->
-        <section class="sec-padding">
-            <div class="container">
-                <div class="service sec-padding">
-                    <div class="row service-container align-items-center g-4 g-xl-0">
-                        <div class="col-lg-6 d-none d-lg-block">
-                            <img src="images/service-img.webp" alt="service-title">
-                        </div>
-                        <div class="col-lg-6">
-                            <h2>Voo Service Partner program</h2>
-                            <p>Your chance to elevate from driver to partner! Stand out with exceptional performance and
-                                join us in shaping the future
-                                of transportation. <br>As a partner, you can manage drivers in specific zip codes,
-                                putting you in control of your success</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
+    <main class="top-sec">
         <!-- about-us -->
-        <section class="about sec-padding">
+        <section class="landing-sec about sec-padding">
             <div class="container">
                 <div class="row align-items-center g-3">
                     <div class="col-lg-6">
                         <h2>About us</h2>
-                        <p>It is a long established fact that a reader will be distracted by the readable content of a
-                            page when looking at its
-                            layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of
-                            letters.</p>
+                        <p>It is a long established fact that a reader will be distracted by the readable content of a page when
+                            looking at its
+                            layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.
+                        </p>
                         <a href="#" class="main-btn d-flex align-items-center gap-2"><span>Read more</span> <i
                                 class="fa-solid fa-arrow-right"></i></a>
                     </div>
@@ -162,81 +120,63 @@
             </div>
         </section>
 
-        <!-- join-us -->
-        <section class="join-us sec-padding">
+       <!-- Blogs -->
+       <section class="sec-padding">
             <div class="container">
-                <div class="row align-items-center g-4">
-                    <div class="col-lg-6 d-none d-lg-block">
-                        <img src="images/join-us.webp" alt="">
-                    </div>
-                    <div class="col-lg-6">
-                        <h2>Want to become a captain?</h2>
-                        <div class="main-color join-second-title fw-800">Join Us!</div>
-                        <p>It is a long established fact that a reader will be distracted by the readable content of a
-                            page when looking at its
-                            layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of
-                            letters.</p>
-                        <a href="#" class="main-btn d-block">Download App</a>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- download-app -->
-        <section class="sec-padding pt-0">
-            <div class="download-app ">
-                <div class="sec-padding container">
-                    <div class="row g-4 g-lg-3 align-items-center">
-                        <div class="col-lg-8">
-                            <h2>Download now!</h2>
-                            <p>It is a long established fact that a reader will be distracted by the readable content of
-                                a page when looking at its
-                                layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution
-                                of letters.</p>
-                            <div class="d-flex mt-4 download-links gap-4 mt-3 mt-lg-5 flex-wrap">
-                                <div>
-                                    <a href="#" class="d-block">
-                                        <div class="d-flex align-items-center justify-content-between gap-2">
-                                            <div class="d-flex align-items-center gap-3">
-                                                <div class="icon"><i class="fa-solid fa-car-side main-icon"></i></div>
-                                                <div>
-                                                    <div class="top-title">Get a</div>
-                                                    <div class="middle-title">Ride</div>
-                                                    <div class="bottom-title">with VOO</div>
-                                                </div>
-                                            </div>
-                                            <i class="fa-solid fa-arrow-right arrow-icon"></i>
-                                        </div>
-                                    </a>
+                <h2 class="mb-3">Trending blogs</h2>
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="main-card">
+                            <a href="blog-details.html">
+                                <figure class="text-center"><img src="images/blog-img.png" class="w-100" alt="blog-title"></figure>
+                                <h3 class="mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting.</h3>
+                                <div class="date mb-2">Published on 24/4/2024</div>
+                                <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical
+                                    Latin literature
+                                    from 45 BC, making it over 2000 years old.</p>
+                                <div href="blog-details.html" class="secondary-btn d-block mt-3">
+                                    <div class="d-flex align-items-center gap-2 justify-content-center"><span>Read more</span> <i
+                                            class="fa-solid fa-arrow-right"></i></div>
                                 </div>
-                                <div>
-                                    <a href="#" class="d-block">
-                                        <div class="d-flex align-items-center justify-content-between gap-2">
-                                            <div class="d-flex align-items-center gap-3">
-                                                <div class="icon"><i class="fa-solid fa-basket-shopping main-icon"></i>
-                                                </div>
-                                                <div>
-                                                    <div class="top-title">Get your</div>
-                                                    <div class="middle-title">Deliveries</div>
-                                                    <div class="bottom-title">with VOO</div>
-                                                </div>
-                                            </div>
-                                            <i class="fa-solid fa-arrow-right arrow-icon"></i>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div>
-
-                                </div>
-                            </div>
+                            </a>
                         </div>
-                        <div class="col-lg-4 text-center text-lg-end">
-                            <img src="images/mobile.webp" class="mobile-img" alt="download-app">
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="main-card">
+                            <a href="blog-details.html">
+                                <figure class="text-center"><img src="images/blog-img.png" class="w-100" alt="blog-title"></figure>
+                                <h3 class="mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting.</h3>
+                                <div class="date mb-2">Published on 24/4/2024</div>
+                                <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical
+                                    Latin literature
+                                    from 45 BC, making it over 2000 years old.</p>
+                                <div href="blog-details.html" class="secondary-btn d-block mt-3">
+                                    <div class="d-flex align-items-center gap-2 justify-content-center"><span>Read more</span> <i
+                                            class="fa-solid fa-arrow-right"></i></div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="main-card">
+                            <a href="blog-details.html">
+                                <figure class="text-center"><img src="images/blog-img.png" class="w-100" alt="blog-title"></figure>
+                                <h3 class="mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting.</h3>
+                                <div class="date mb-2">Published on 24/4/2024</div>
+                                <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical
+                                    Latin literature
+                                    from 45 BC, making it over 2000 years old.</p>
+                                <div href="blog-details.html" class="secondary-btn d-block mt-3">
+                                    <div class="d-flex align-items-center gap-2 justify-content-center"><span>Read more</span> <i
+                                            class="fa-solid fa-arrow-right"></i></div>
+                                </div>
+                            </a>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
+       </section>
+
 
         <!-- faq -->
         <section class="faq">
@@ -247,20 +187,15 @@
                         <h2 class="accordion-header">
                             <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#1"
                                 aria-expanded="true">
-                                What the point of using Lorem Ipsum is that it has a more-or-less normal distribution of
-                                letters ?
+                                What the point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters ?
                             </button>
                         </h2>
                         <div id="1" class="accordion-collapse collapse show">
                             <div class="accordion-body">
-                                <strong>This is the first item's accordion body.</strong> It is shown by default, until
-                                the collapse
-                                plugin adds the appropriate classes that we use to style each element. These classes
-                                control the overall
-                                appearance, as well as the showing and hiding via CSS transitions. You can modify any of
-                                this with
-                                custom CSS or overriding our default variables. It's also worth noting that just about
-                                any HTML can go
+                                <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse
+                                plugin adds the appropriate classes that we use to style each element. These classes control the overall
+                                appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with
+                                custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go
                                 within the <code>.accordion-body</code>, though the transition does limit overflow.
                             </div>
                         </div>
@@ -269,20 +204,15 @@
                         <h2 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#2" aria-expanded="false">
-                                What the point of using Lorem Ipsum is that it has a more-or-less normal distribution of
-                                letters ?
+                                What the point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters ?
                             </button>
                         </h2>
                         <div id="2" class="accordion-collapse collapse">
                             <div class="accordion-body">
-                                <strong>This is the second item's accordion body.</strong> It is hidden by default,
-                                until the collapse
-                                plugin adds the appropriate classes that we use to style each element. These classes
-                                control the overall
-                                appearance, as well as the showing and hiding via CSS transitions. You can modify any of
-                                this with
-                                custom CSS or overriding our default variables. It's also worth noting that just about
-                                any HTML can go
+                                <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse
+                                plugin adds the appropriate classes that we use to style each element. These classes control the overall
+                                appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with
+                                custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go
                                 within the <code>.accordion-body</code>, though the transition does limit overflow.
                             </div>
                         </div>
@@ -291,20 +221,15 @@
                         <h2 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#3" aria-expanded="false" aria-controls="3">
-                                What the point of using Lorem Ipsum is that it has a more-or-less normal distribution of
-                                letters ?
+                                What the point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters ?
                             </button>
                         </h2>
                         <div id="3" class="accordion-collapse collapse">
                             <div class="accordion-body">
-                                <strong>This is the third item's accordion body.</strong> It is hidden by default, until
-                                the collapse
-                                plugin adds the appropriate classes that we use to style each element. These classes
-                                control the overall
-                                appearance, as well as the showing and hiding via CSS transitions. You can modify any of
-                                this with
-                                custom CSS or overriding our default variables. It's also worth noting that just about
-                                any HTML can go
+                                <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse
+                                plugin adds the appropriate classes that we use to style each element. These classes control the overall
+                                appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with
+                                custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go
                                 within the <code>.accordion-body</code>, though the transition does limit overflow.
                             </div>
                         </div>
@@ -313,20 +238,15 @@
                         <h2 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#4" aria-expanded="false" aria-controls="4">
-                                What the point of using Lorem Ipsum is that it has a more-or-less normal distribution of
-                                letters ?
+                                What the point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters ?
                             </button>
                         </h2>
                         <div id="4" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                             <div class="accordion-body">
-                                <strong>This is the third item's accordion body.</strong> It is hidden by default, until
-                                the collapse
-                                plugin adds the appropriate classes that we use to style each element. These classes
-                                control the overall
-                                appearance, as well as the showing and hiding via CSS transitions. You can modify any of
-                                this with
-                                custom CSS or overriding our default variables. It's also worth noting that just about
-                                any HTML can go
+                                <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse
+                                plugin adds the appropriate classes that we use to style each element. These classes control the overall
+                                appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with
+                                custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go
                                 within the <code>.accordion-body</code>, though the transition does limit overflow.
                             </div>
                         </div>
@@ -383,8 +303,7 @@
                 </div>
             </div>
             <div class="line mt-5"></div>
-            <div class="copy-writes text-center white mt-3">Created by <a href="https://innovationscope.com/">innovation
-                    scope</a>. All rights reserved 2024</div>
+            <div class="copy-writes text-center white mt-3">Created by <a href="https://innovationscope.com/">innovation scope</a>. All rights reserved 2024</div>
         </div>
     </footer>
 
@@ -396,18 +315,18 @@
 
     <script>
         $(document).ready(function () {
-            // Toggle mobile menu
-            $('#mobile-menu').click(function () {
-                $('.navbar-menu').toggleClass('active');
-            });
+                // Toggle mobile menu
+                $('#mobile-menu').click(function () {
+                    $('.navbar-menu').toggleClass('active');
+                });
 
-            // Toggle dropdown menu and arrow direction
-            $('.dropdown-toggle').click(function (e) {
-                e.preventDefault();
-                $(this).next('.dropdown-menu').slideToggle();
+                // Toggle dropdown menu and arrow direction
+                $('.dropdown-toggle').click(function (e) {
+                    e.preventDefault();
+                    $(this).next('.dropdown-menu').slideToggle();
+                });
             });
-        });
     </script>
-
-
+    
+  
 </body>

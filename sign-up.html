@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="vendor/slick-carousel/css/slick.css">
+    <link rel="stylesheet" href="vendor/slick-carousel/css/slick-theme.css">
+    <link rel="stylesheet" href="vendor/font-awesome/css/all.min.css">
+    <link rel="stylesheet" href="vendor/bootstrap-5.3.0-dist/css/bootstrap.css">
+    <link rel="icon" type="image/x-icon" href="/images/fav-icon.webp">
+    <link rel="stylesheet" href="vendor/select/css/select.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Sign-up | Voo</title>
+</head>
+
+<body>
+    <header>
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-lg bg-transparent">
+            <div class="container">
+                <!-- logo -->
+                <a class="navbar-brand" href="index.html"><img src="images/logo.webp" alt="logo"></a>
+                <!-- toggle btn -->
+                <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                    <i class="fas fa-bars toggle-icon"></i>
+                </button>
+
+                <!-- sidebar -->
+                <div class="sidebar offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar">
+                    <!-- sidebar header -->
+                    <div class="offcanvas-header">
+                        <img class="sidebar-logo" src="images/logo.webp" alt="logo">
+                        <button type="button" class="btn-close shadow-none" data-bs-dismiss="offcanvas"
+                            aria-label="Close"></button>
+                    </div>
+
+                    <!-- sidebar body -->
+                    <div class="offcanvas-body d-flex flex-column flex-lg-row p-5 p-lg-0">
+                        <ul class="navbar-nav justify-content-lg-end align-items-lg-center flex-grow-1">
+                            <li class="nav-item">
+                                <a class="nav-link d-flex d-lg-block align-items-center" href="index.html"><i
+                                        class="fa-solid fa-house me-3 d-lg-none fs-16"></i>Home</a>
+                            </li>
+                            <li class="nav-item navbar-item dropdown">
+                                <a href="#" class="nav-link d-flex align-items-center navbar-links dropdown-toggle">
+                                    <div class="d-flex d-lg-block align-items-center"><i
+                                            class="fa-solid fa-car me-3 d-lg-none fs-16"></i>
+                                        <div>Ride</div>
+                                    </div>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li class="dropdown-item"><a href="ride.html"
+                                            class="d-flex d-lg-block align-items-center"><i
+                                                class="fa-solid fa-tag d-lg-none fs-16 me-3"></i><span>Ride with us
+                                            </span></a></li>
+                                    <li class="dropdown-item"><a href="rider-offer.html"
+                                            class="d-flex d-lg-block align-items-center"><i
+                                                class="fa-solid fa-tag d-lg-none fs-16 me-3"></i><span>Rider
+                                                offer</span></a></li>
+                                    <li class="dropdown-item"><a href="driver-offer.html"
+                                            class="d-flex d-lg-block align-items-center"><i
+                                                class="fa-solid fa-badge-percent d-lg-none fs-16 me-3"></i></i><span>Driver
+                                                offer</span></a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link d-flex d-lg-block align-items-center" href="deliveries.html"><i
+                                        class="fa-solid fa-truck me-3 d-lg-none fs-16"></i>
+                                    <div>Deliveries</div>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link d-flex d-lg-block align-items-center" href="about-us.html"><i
+                                        class="fa-solid fa-user me-3 d-lg-none fs-16"></i><span>About us</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link d-flex d-lg-block align-items-center" href="blogs.html"><i
+                                        class="fa-solid fa-newspaper me-3 d-lg-none fs-16"></i><span>Blogs</span></a>
+                            </li>
+                            <li class="nav-item d-lg-none">
+                                <a class="nav-link d-flex d-lg-block align-items-center" href="faq.html"><i
+                                        class="fa-solid fa-right-to-bracket me-3 d-lg-none fs-16"></i><span>Login / sign
+                                        up</span></a>
+                            </li>
+                        </ul>
+
+                        <!-- login / sign-up -->
+                        <div class="d-none d-lg-block">
+                            <div class="d-flex flex-column flex-lg-row justify-content-center align-items-center gap-3">
+                                <div class="login-container">
+                                    <a href="login.html" class="secondary-btn">Login</a>
+                                </div>
+                                <a href="sign-up.html" class="main-btn">Download</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="login top-sec">
+        <section class="sec-padding">
+            <div class="container">
+                <div class="form-container m-auto">
+                    <h2 class="mb-4">Hey there! sign up</h2>
+                    <form action="#" id="login_form">
+                        <div class="row gx-4">
+                            <div class="col-lg-6">
+                                <div class="mb-3">
+                                    <label for="first_name" class="form-label">First name*</label>
+                                    <input type="text" class="form-control" id="first_name" name="first_name"
+                                        placeholder="First name" required>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="mb-3">
+                                    <label for="last_name" class="form-label">Last name*</label>
+                                    <input type="text" class="form-control" id="last_name" name="last_name"
+                                        placeholder="Last name" required>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="mb-3">
+                                    <label for="phone" class="form-label">Mobile number*</label>
+                                    <input type="number" class="form-control" id="phone" name="phone"
+                                        placeholder="Mobile number" required>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="mb-3">
+                                    <label for="phone" class="form-label">E-mail*</label>
+                                    <input type="email" class="form-control" id="email" name="email"
+                                        placeholder="Enter your Email" required>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="mb-3">
+                                    <label for="date_of_birth" class="form-label">Date of birth*</label>
+                                    <input type="date" class="form-control" id="date_of_birth" name="date_of_birth"
+                                        required>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="mb-3">
+                                    <label for="select_test" class="form-label d-block">Gender*</label>
+                                    <div class="select" id="select_test" name="gender">
+                                        <input type="hidden" name="" value="">
+                                        <div class="select-inner"></div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="mb-3">
+                                    <label for="password" class="form-label">Password*</label>
+                                    <input type="password" class="form-control" id="password" name="password"
+                                        placeholder="Enter your password" required>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="mb-3">
+                                    <label for="confirm_password" class="form-label">Repeat password*</label>
+                                    <input type="password" class="form-control" id="confirm_password"
+                                        name="confirm_password" placeholder="Enter your password" required>
+                                </div>
+                            </div>
+                        </div>
+                        <div
+                            class="d-flex align-items-center justify-content-center gap-3 gap-lg-4 mt-4 sign-up-btns flex-wrap">
+                            <button type="submit"
+                                class="main-btn d-flex align-items-center gap-2 justify-content-center"><span>Sign
+                                    up</span><i class="fa-solid fa-arrow-right"></i></button>
+                            <a href="#" class="secondary-btn d-flex align-items-center gap-2"><img
+                                    src="images/google-icon.webp" alt="google-icon"><span>Sign up with Google</span></a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+
+    </main>
+
+    <footer>
+        <div class="sec-padding container">
+            <figure class="mb-5 logo"><a href="index.html"><img src="images/white_logo.webp" alt="voo"></a></figure>
+            <div class="row g-3">
+                <div class="col-6 col-lg-3">
+                    <h3 class="mb-3">Services</h3>
+                    <a href="#" class="footer-link">Login</a>
+                    <a href="#" class="footer-link">Sign up</a>
+                    <a href="#" class="footer-link">Ride with Voo</a>
+                    <a href="#" class="footer-link">Get your Deliveries</a>
+                </div>
+                <div class="col-6 col-lg-3">
+                    <h3 class="mb-3">Quick links</h3>
+                    <a href="#" class="footer-link">Home</a>
+                    <a href="#" class="footer-link">About us</a>
+                    <a href="#" class="footer-link">Become a captain</a>
+                </div>
+                <div class="col-lg-3">
+                    <h3 class="mb-3">About us</h3>
+                    <a href="#" class="footer-link">Blogs</a>
+                    <a href="#" class="footer-link">FAQs</a>
+                </div>
+                <div class="col-lg-3">
+                    <h3 class="mb-3">Download apps</h3>
+                    <div class="d-flex d-lg-block gap-3 flex-wrap">
+                        <a href="#" class="download-btn">
+                            <div class="d-flex align-items-center gap-2">
+                                <i class="fa-brands fa-apple"></i>
+                                <div>
+                                    <div class="top-title">Download on the</div>
+                                    <div class="main-title">App Store</div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#" class="download-btn mt-lg-2">
+                            <div class="d-flex align-items-center gap-2">
+                                <i class="fa-brands fa-google-play"></i>
+                                <div>
+                                    <div class="top-title">Download on the</div>
+                                    <div class="main-title">Play Store</div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="line mt-5"></div>
+            <div class="copy-writes text-center white mt-3">Created by <a href="https://innovationscope.com/">innovation
+                    scope</a>. All rights reserved 2024</div>
+        </div>
+    </footer>
+
+
+    <script src="vendor/jquery/jquery.js"></script>
+    <script src="vendor/bootstrap-5.3.0-dist/js/bootstrap.js"></script>
+    <script src="vendor/slick-carousel/js/slick.min.js"></script>
+    <script src="vendor/select/js/select.min.js"></script>
+    <script src="vendor/jquery-validate/jquery.validate.min.js"></script>
+    <script src="js/main.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            // Toggle mobile menu
+            $('#mobile-menu').click(function () {
+                $('.navbar-menu').toggleClass('active');
+            });
+
+            // Toggle dropdown menu and arrow direction
+            $('.dropdown-toggle').click(function (e) {
+                e.preventDefault();
+                $(this).next('.dropdown-menu').slideToggle();
+            });
+
+            const myOptions = [{
+                name: 'male',
+                value: 'male'
+            }, {
+                name: 'female',
+                value: 'female'
+            }
+            ]
+
+            $('#select_test').select({
+                data: myOptions,
+                activeClass: 'item-active',
+                disabledClass: 'select-disabled',
+                itemDisabledClass: 'item-disabled',
+                openClass: 'select-open',
+                index: 0,
+                gutter: 2
+            });
+
+            $("#login_form").validate({
+                rules: {
+                    first_name: {
+                        required: true,
+                        minlength: 2,
+                    },
+                    last_name: {
+                        required: true,
+                        minlength: 2,
+                    },
+                    phone: {
+                        required: true,
+                        number: true,
+                    },
+                    email: {
+                        required: true,
+                        email: true
+                    },
+                    date_of_birth: {
+                        required: true,
+                    },
+                    password: {
+                        required: true,
+                        minlength: 8
+                    },
+                    confirm_password: {
+                        required: true,
+                        equalTo: "#password"
+                    }
+                },
+                messages: {
+                    first_name: {
+                        required: "please enter your first name",
+                        minlength: "first name at least 2 characters"
+                    },
+                    last_name: {
+                        required: "please enter your last name",
+                        minlength: "first name at least 2 characters"
+                    },
+                    phone: {
+                        required: "please enter your phone number",
+                        number: "phone must be a number",
+                    },
+                     email: {
+                        required: "Please enter your email address",
+                        email: "Please enter a valid email address"
+                    },
+                    date_of_birth: {
+                        required: "Please select your date of birth",
+                    },
+                    password: {
+                        required: "please enter your password",
+                        minlength: "password must be at least 8 characters"
+                    },
+                    confirm_password: {
+                        required: "please confirm your password",
+                        equalTo: "passwords do not match"
+                    }
+                },
+            });
+        });
+    </script>
+
+
+</body>
